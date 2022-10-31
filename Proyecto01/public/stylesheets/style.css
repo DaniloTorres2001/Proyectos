@@ -1,0 +1,179 @@
+@media screen and (max-width: 800px) {
+  nav ul p{
+    font-size: 12px;
+  }
+  .contenido{
+    display: flex; 
+    width: 780px;
+  }
+  .columnaP{
+    display: flex; 
+    flex-direction: column; 
+    width: 780px;
+  }  
+  .barraN{
+    display: flex;             
+    width: 780px;
+    height: 10px;
+    background-color: black;
+  }
+  .barN a{
+    padding-right: 20px;
+    font-size: 30px; 
+  }
+  .imagen img{
+    margin-top: 10px ;
+    margin-left: 10px;
+    margin-bottom: 30px;  
+    width:80px;
+    height:80px;
+    border-radius:150px;
+    border:3px solid white;
+  }
+  .naveg{
+    display: flex;
+    flex-direction: row;
+    background-color: #161A1D;
+    font-size: 5px;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  nav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    z-index: 999; 
+  }
+  nav{
+    position: sticky;
+    top: 0px;
+  }
+  .infobox{
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+  }
+  .infobox iframe{
+    margin-top: 30px;
+    margin-left: 50px;    
+    width: 600px;
+    height: 500px;
+    margin-bottom: 30px;  
+  }
+  .titulo{
+    display: flex;  
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 400px;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: auto; /* Coloca el tamaño del elemento inicial basado en su contenido  */
+    background-color: ;  
+  }
+  .flex-3{
+    width: 750px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color:#161A1D;
+    border-radius: 10px;
+  }
+  .certf{
+    width: 300px;
+    height: 300px;
+  }
+
+  .destrezasbox{
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .destrezas{
+    padding-top: 1px;
+    padding-left:10px ;
+  }
+  .flex-5{
+    width: 750px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color:#161A1D;
+    border-radius: 10px;    
+  }
+
+  .iconos,.desc{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  }
+  .mapa iframe{
+    margin-top: 30px;
+    margin-right:70px;
+    width: 720px;
+    height: 400px;    
+  }
+  .flex-6{
+    width: 60px;
+    height: 60px;
+    flex-wrap: wrap;
+    margin-top: 10px;  
+    margin-left: 80px;
+    background-color:white;
+    border-radius: 10px;
+    background-color: #E5383B;
+  }
+  .flex-7{  
+    width: 550px;
+    height: 60px;
+    flex-wrap: wrap;    
+    margin-top: 10px;
+    background-color:white;
+    border-radius: 10px;
+  }
+    .c{
+    padding-top: 0px;  
+  }
+  div.ic div.flex-6{
+    width: 60px;
+    height: 60px;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+    margin-left: 1px;
+    background-color:white;
+    border-radius: 10px;
+    background-color: #E5383B;
+  }
+.redes{
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 70px;
+  padding-bottom: 80px;
+}
+#nombre{
+  width: 600px;
+  height: 35px;
+  font-size: 15px;
+  font-family: 'Amaranth', sans-serif;  
+}
+#correoelectronico{
+  width: 600px;
+  height: 35px;
+  font-size: 15px;
+  font-family: 'Amaranth', sans-serif;
+}
+#mensaje{
+  width: 600px;
+  height: 120px;
+  font-size: 15px;
+  font-family: 'Amaranth', sans-serif;
+}
+.formulario{
+  padding-top: 50px;  
+}
+  
+
+
+}
