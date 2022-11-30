@@ -5,6 +5,13 @@
     --dark: #191C24;
 }
 
+#line-example-1 {
+  height: 600px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -27,7 +34,6 @@
     visibility: visible;
     opacity: 1;
 }
-
 
 /*** Button ***/
 .btn {
