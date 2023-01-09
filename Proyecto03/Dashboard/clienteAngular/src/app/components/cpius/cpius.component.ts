@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
-import { RecursosService } from './servicios/recursos.service';
-import { Grafico } from './interfaz/grafico';
+import { RecursosService } from 'src/app/servicios/recursos.service';
+import { Grafico } from 'src/app/interfaz/grafico';
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-cpius',
+  templateUrl: './cpius.component.html',
+  styleUrls: ['./cpius.component.css']
 })
-export class AppComponent {
-  title = 'clienteAngular';
+export class CpiusComponent {
 
   graficos:any;
 
@@ -22,5 +21,4 @@ export class AppComponent {
       this.graficos = response;
     })
   }
-
 }

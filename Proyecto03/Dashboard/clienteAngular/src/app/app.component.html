@@ -24,19 +24,19 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a  class="nav-item nav-link active"><i class="fa fa-info me-2"></i>Info</a>
+                    <a  routerLink="/info" class="nav-item nav-link active"><i class="fa fa-info me-2"></i>Info</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-flag-usa me-2"></i>USA</a>
                         <div class="dropdown-menu bg-transparent border-0">
-                            <a href="CPIUS.html" class="dropdown-item">Consumer Price Index</a>
-                            <a  href="Unenployment.html" class="dropdown-item">Unemploymet</a>   
+                            <a routerLink="/cpius" class="dropdown-item">Consumer Price Index</a>
+                            <a routerLink="/unenployment" class="dropdown-item">Unemploymet</a>   
                         </div>
                     </div> 
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-flag me-2"></i>SPAIN</a>
                         <div class="dropdown-menu bg-transparent border-0">
-                            <a href="CPIES.html" class="dropdown-item">Consumer Price Index</a>
-                            <a  href="IPES.html" class="dropdown-item">Industrial Production</a>   
+                            <a routerLink="/cpies" class="dropdown-item">Consumer Price Index</a>
+                            <a routerLink="/ipes" class="dropdown-item">Industrial Production</a>   
                         </div>
                     </div>                                       
                 </div>
@@ -44,7 +44,7 @@
         </div>
         <!-- Sidebar End -->
 
-
+      
         <!-- Content Start -->
 
         <div class="content">
@@ -73,49 +73,14 @@
             </nav>
             <!-- Navbar End -->
 
-            <div class="container-fluid pt-4 px-4">
-                <div class="row g-5">
-                    <div class="justify-content">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">                            
-                            <div class="ms-3">
-                                <h3>Economic indicators and alternative data - Comprehensive coverage of the global economy -</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Animate.css -->
-            <div align="center" >
-                <img class="rounded-circle me-lg-1 " src="assets/img/EconDB.png" alt="" style="width: 200px; height: 200px ">
-            </div>
-
-            <div class="container-fluid pt-4 px-4">
-                <div class="row g-5">
-                    <div class="justify-content">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">                            
-                            <div class="ms-3">
-                                <h6>Esta API de EconDB utiliza su propia base de datos, donde todas las solicitudes ocurren internamente, sin sobrecargar el Servicio Web de EconDB, evitando bloqueos por accesos múltiples.</h6>
-                                <h6>Aqui encontraremos informacion de la macroeconomia de distintos paises como en este caso lo son Estados Unidos y España</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>                     
+            <router-outlet></router-outlet>                     
 
             <!-- Footer Start -->
-            <div class="container-fluid pt-4 px-4">
-                <div class="bg-light rounded-top p-4">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">Your Site Name</a>, All Right Reserved. 
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
+            
             <!-- Footer End -->
         </div>
         <!-- Content End -->
+        
 
 
         <!-- Back to Top -->

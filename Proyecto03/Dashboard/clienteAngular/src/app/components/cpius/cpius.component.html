@@ -1,0 +1,36 @@
+
+
+
+
+<div class="container-fluid pt-4 px-4">
+
+    
+    
+    <!--<div class="bg-light rounded-top p-4"  *ngFor="let grafico of graficos">-->
+    <div class="bg-light rounded-top p-4"  *ngIf=" graficos">  
+        
+        
+        <table class="content-table"> 
+            <thead> 
+                <tr> 
+                    <th>Values</th> 
+                    <th>Dates</th> 
+                    <th>Status</th> 
+                </tr> 
+            </thead> 
+            <tbody> 
+                <tr> 
+                    <td>{{graficos.data.values[0]}}</td>
+                    <td>{{graficos.data.dates [0]}}</td>
+                    <td>{{graficos.data.status[0]}}</td>                    
+                </tr>
+                
+            </tbody> 
+        </table>
+        
+    </div>
+</div>
+
+
+
+
